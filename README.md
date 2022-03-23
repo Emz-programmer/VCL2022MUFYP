@@ -1,5 +1,5 @@
 # VCL2022MUFYP
-The visual campus locator is a place recognition tool designed for use on the Maynooth University campus. The git repo contains downscaled images, however it does contain the full resolution database.
+The visual campus locator is a place recognition tool designed for use on the Maynooth University campus. The git repo contains downscaled images, however it does contain the full resolution database. Requires NodeJS 14.12.
 ## Automated Installation
 Compatible with Ubuntu 20.04. 
 ```
@@ -56,4 +56,9 @@ cd ..
 cd build
 cmake ..
 make
+apt -qq -y install snapd
+sudo snap install node --channel=14/stable --classic
+cd ~
+cd DBoW2/VCL/ReactFrontend/vcl_frontend
+npm install
 ```

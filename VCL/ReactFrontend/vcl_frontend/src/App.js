@@ -26,7 +26,7 @@ class App extends React.Component{
         
         document.getElementById("answer").innerHTML="<p>Building is: "+this.state.buildingName+"<p/>"        
     }
-    testVCL = async() =>{
+    /*testVCL = async() =>{
         var testOutput="";
         const labels = ["Arts", "Iontas", "Engineering", "Eolas", "John Hume"]
         for(var i=1;i<=50;i++){
@@ -45,7 +45,7 @@ class App extends React.Component{
         document.body.appendChild(element);
         element.click();
         console.log("Testing Complete!");
-    }
+    }*/
 
     onImageChange = event => {
         if (event.target.files && event.target.files[0]) {
@@ -75,7 +75,7 @@ class App extends React.Component{
                 <div id="answer">
 
                 </div><br/>
-                <button onClick={this.testVCL}>Run Tests</button>
+                
 
 
             </div>
