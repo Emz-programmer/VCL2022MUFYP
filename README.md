@@ -18,6 +18,8 @@ sudo apt-get install cmake
 sudo apt-get install libpython2.7-dev
 sudo apt-get install libblas-dev liblapack-dev libglew-dev
 sudo apt-get install build-essential
+sudo apt-get install librestbed-dev
+sudo apt install sqlite3
 sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev  libswscale-dev sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libdc1394-22-dev
 sudo apt-get install libeigen3-dev
 
