@@ -1,7 +1,7 @@
 # VCL2022MUFYP
 The visual campus locator is a place recognition tool designed for use on the Maynooth University campus. The git repo contains downscaled images, however it does contain the full resolution database. Requires NodeJS 14.12.
 ## Automated Installation
-Compatible with Ubuntu 20.04. 
+Compatible with Ubuntu 20.04. Installation will take approx 1hr 30mins depending on system performance and network speeds.  
 ```
 git clone git clone https://github.com/Emz-programmer/VCL2022MUFYP.git
 cd VCL2022MUFYP
@@ -10,7 +10,7 @@ sudo -E ./setup.sh
 
 ```
 ## Manual Installation
-Compatible with Ubuntu 20.04. Compatibility with other OS's may vary. DBoW2 Requires OpenCV to run and compile. Installation will take approx 1hr 30mins.  
+Compatible with Ubuntu 20.04. Compatibility with other OS's may vary. DBoW2 Requires OpenCV to run and compile. Installation will take approx 1hr 30mins depending on system performance and network speeds.  
 ### OpenCV
 #### Install Dependencies
 ```
@@ -75,7 +75,7 @@ cd DBoW2/VCL/ReactFrontend/vcl_frontend
 npm start
 ```
 ### External Devices
-The vcl is configured to run on localhost:3000. Nginx (or similar) is required to enable external devices to connect. The app.js (VCL/ReactFrontend/vcl_frontend/src/app.js) code will beed to be modified as follows:
+The vcl is configured to run on localhost:3000. Nginx (or similar) is required to enable external devices to connect. The app.js (VCL/ReactFrontend/vcl_frontend/src/app.js) code will need to be modified as follows:
 ```
 const api = axios.create({
     baseURL: 'http://<ip address>:2022/2022fypVCL'
