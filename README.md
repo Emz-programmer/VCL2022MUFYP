@@ -62,3 +62,12 @@ cd ~
 cd DBoW2/VCL/ReactFrontend/vcl_frontend
 npm install
 ```
+## Usage
+The vcl is configured to run on localhost:3000. Nginx (or similar) is required to enable external devices to connect. The app.js (VCL/ReactFrontend/vcl_frontend/src/app.js) code will beed to be modified as follows:
+```json
+const api = axios.create({
+    baseURL: 'http://<ip address>:2022/2022fypVCL'
+
+});
+
+```
