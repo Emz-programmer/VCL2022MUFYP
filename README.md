@@ -69,7 +69,7 @@ VCL consists of 2 main programs: **VCL** and **BuildDB**. A prebuild image datab
 cd DBoW2/build
 ./VCL
 ```
-The VCL will now listen on localhost:2022 for requests. To initialise the frontend components:
+The VCL will now listen on localhost:2022 for requests. Ensure NodeJS 14.12 is installed along with Axios. To initialise the frontend components:
 ```
 cd DBoW2/VCL/ReactFrontend/vcl_frontend
 npm start
