@@ -5,7 +5,7 @@ import imageToBase64 from 'image-to-base64/browser';
 import './App.css';
 
 const api = axios.create({
-    baseURL: 'http://149.157.111.88:2022/2022fypVCL'
+    baseURL: 'http://localhost:2022/2022fypVCL'
 
 });
 
