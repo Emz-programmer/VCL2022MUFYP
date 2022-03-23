@@ -1,8 +1,16 @@
 # VCL2022MUFYP
 The visual campus locator is a place recognition tool designed for use on the Maynooth University campus.
+## Automated Installation
+Compatible with Ubuntu 20.04. 
+```
+git clone git clone https://github.com/Emz-programmer/VCL2022MUFYP.git
+cd VCL2022MUFYP
+chmod + x ./setup.sh
+sudo -E ./setup.sh
 
-## Installation
-DBoW2 Requires OpenCV to run and compile. Installation will take approx 1hr 30mins. 
+```
+## Manual Installation
+Compatible with Ubuntu 20.04. Compatibility with other OS's may vary. DBoW2 Requires OpenCV to run and compile. Installation will take approx 1hr 30mins.  
 ### OpenCV
 #### Install Dependencies
 ```
@@ -40,4 +48,12 @@ cd ~
 cd DBoW2
 git clone https://github.com/Emz-programmer/VCL2022MUFYP.git
 cd VCL2022MUFYP
+cp -R ./build ../
+cp ./CMakeLists.txt ../
+cp -R ./VCL ../
+cp -R ./images ../
+cd ..
+cd build
+cmake ..
+make
 ```

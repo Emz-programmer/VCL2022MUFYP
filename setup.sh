@@ -23,3 +23,11 @@ cd ~
 cd DBoW2
 git clone https://github.com/Emz-programmer/VCL2022MUFYP.git
 cd VCL2022MUFYP
+cp -R ./build ../
+cp ./CMakeLists.txt ../
+cp -R ./VCL ../
+cp -R ./images ../
+cd ..
+cd build
+cmake ..
+make
