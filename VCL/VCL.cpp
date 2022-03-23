@@ -136,7 +136,7 @@ QueryResults queryDatabase(const vector<vector<cv::Mat > > &features)
   cout << endl;
   return ret;
 }
-
+// Base64 Converter from: https://stackoverflow.com/questions/342409/how-do-i-base64-encode-decode-in-c
 static const int B64index[256] = { 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0, 62, 63, 62, 62, 63, 52, 53, 54, 55,
