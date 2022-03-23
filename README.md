@@ -58,8 +58,6 @@ cd ..
 cd build
 cmake ..
 make
-apt -qq -y install snapd
-sudo snap install node --channel=14/stable --classic
 cd ~
 cd DBoW2/VCL/ReactFrontend/vcl_frontend
 npm install

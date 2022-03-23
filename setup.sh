@@ -6,8 +6,7 @@ apt-get -qq -y install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavfo
 apt-get -qq -y install libeigen3-dev
 apt-get -qq -y install librestbed-dev
 apt -qq -y install sqlite3
-apt -qq -y install snapd
-snap install node --channel=14/stable --classic
+
 cd ~
 git clone https://github.com/opencv/opencv.git
 cd ~/opencv
