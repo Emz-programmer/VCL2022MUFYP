@@ -1,6 +1,6 @@
 /*
 Visual Campus Locator
-Cormac Hynes
+Emily Hynes
 Maynooth University FYP
 */
 
